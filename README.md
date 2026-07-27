@@ -6,7 +6,7 @@
 
 ## Labeled Home Wi-Fi Network
 
-![Home Wi-Fi Network Diagram](images/home-network-diagram.png)
+![Home Wi-Fi Network Diagram](/home-network-diagram.png)
 
 ---
 
