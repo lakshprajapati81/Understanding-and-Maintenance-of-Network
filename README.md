@@ -182,9 +182,5 @@ Used by Internet Service Providers for high-speed internet and long-distance com
 
 ---
 
-# Conclusion
 
-Networking hardware devices work together to provide reliable internet communication. The modem connects the home to the ISP, the router manages internet traffic and wireless connectivity, the switch connects wired devices within the local network, the access point extends Wi-Fi coverage, and network cables provide stable wired communication. Understanding the role of each device helps in designing efficient and secure computer networks.
-
----
 
