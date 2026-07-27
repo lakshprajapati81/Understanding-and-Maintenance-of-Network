@@ -42,7 +42,7 @@ A modem installed by JioFiber inside a home.
 
 **Image**
 
-![Modem](images/modem.jpg)
+![Modem](/modem.jpg)
 
 ---
 
@@ -63,7 +63,7 @@ TP-Link, ASUS, D-Link, or Netgear Wi-Fi router used at home.
 
 **Image**
 
-![Router](images/router.jpg)
+![Router](/router.jpg)
 
 ---
 
@@ -82,7 +82,7 @@ Office network connecting multiple desktop computers.
 
 **Image**
 
-![Network Switch](images/network-switch.jpg)
+![Network Switch](/network-switch.jpg)
 
 ---
 
@@ -100,7 +100,7 @@ Wi-Fi access point installed in a college campus.
 
 **Image**
 
-![Wireless Access Point](images/access-point.jpg)
+![Wireless Access Point](/access-point.jpg)
 
 ---
 
@@ -117,7 +117,7 @@ Ethernet cable connecting a desktop computer to a router.
 
 **Image**
 
-![Network Cable](images/network-cable.jpg)
+![Network Cable](/network-cable.jpg)
 
 ---
 
@@ -125,7 +125,7 @@ Ethernet cable connecting a desktop computer to a router.
 
 ## Ethernet Cable (Cat6)
 
-![Ethernet Cable](images/ethernet-cable.jpg)
+![Ethernet Cable](/ethernet-cable.jpg)
 
 **Common Use**
 
@@ -135,7 +135,7 @@ Used to connect computers, routers, switches, printers, gaming consoles, and sma
 
 ## Coaxial Cable
 
-![Coaxial Cable](images/coaxial-cable.jpg)
+![Coaxial Cable](/coaxial-cable.jpg)
 
 **Common Use**
 
@@ -145,7 +145,7 @@ Used for cable television and broadband internet connections.
 
 ## Fiber Optic Cable
 
-![Fiber Optic Cable](images/fiber-optic-cable.jpg)
+![Fiber Optic Cable](/fiber-optic-cable.jpg)
 
 **Common Use**
 
