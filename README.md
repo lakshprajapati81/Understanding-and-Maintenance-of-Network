@@ -183,4 +183,138 @@ Used by Internet Service Providers for high-speed internet and long-distance com
 ---
 
 
+DAY 2 :- Routers And Switches
+
+---
+
+# Task 1 – Labelled Diagram of a Home Wi-Fi Router and Network Switch
+
+## Home Wi-Fi Router
+
+![Home Wi-Fi Router](/router-diagram.jpg)
+
+### Labels
+
+- **Power Port** – Connects the router to the power adapter.
+- **WAN Port** – Receives the internet connection from the modem/ISP.
+- **LAN Ports (LAN1–LAN4)** – Connect desktops, switches, printers, etc.
+- **Reset Button** – Restores factory settings.
+- **Wi-Fi Antennas** – Broadcast wireless signals.
+- **Status LEDs**
+  - Power
+  - Internet
+  - WAN
+  - LAN
+  - Wi-Fi
+  - WPS
+
+---
+
+## Network Switch
+
+![Network Switch](/switch-diagram.jpg)
+
+### Labels
+
+- **Power Port** – Supplies electrical power.
+- **Ethernet Ports (Port 1–8)** – Connect PCs, printers, and other devices.
+- **Console Port** *(Managed Switch Only)* – Used for configuration and troubleshooting.
+- **Status LEDs**
+  - Power
+  - Link/Activity
+  - Speed
+  - Port Status
+
+---
+
+# Task 2 – Router vs Switch (3 Key Differences)
+
+| Feature | Router | Switch |
+|---------|---------|---------|
+| **Main Function** | Connects different networks (LAN to Internet). | Connects devices within the same Local Area Network (LAN). |
+| **Address Used** | Uses **IP Addresses** to route packets between networks. | Uses **MAC Addresses** to forward data between local devices. |
+| **Traffic Handling** | Routes packets between different networks using routing tables. | Forwards Ethernet frames only to the correct destination port using a MAC address table. |
+
+---
+
+# Task 3 – Router and Switch Identification
+
+
+### Components Identified
+
+| Component | Position | Purpose |
+|------------|----------|----------|
+| Power Port | Rear Left | Supplies power to the router. |
+| WAN Port | Rear (Blue Port) | Connects the modem or ISP line. |
+| LAN Port 1 | Rear (Yellow Port) | Connects a desktop computer or switch. |
+| LAN Port 2 | Rear (Yellow Port) | Connects another wired device. |
+| LED Indicators | Front Panel | Show Power, Internet, Wi-Fi, LAN activity, and system status. |
+
+---
+
+
+### Components Identified
+
+| Component | Position | Purpose |
+|------------|----------|----------|
+| Power Port | Rear Side | Supplies electrical power. |
+| Ethernet Port 1 | Front Panel | Connects the first computer. |
+| Ethernet Port 2 | Front Panel | Connects another network device. |
+| LED Indicators | Above Each Port | Display Link, Activity, and Speed status. |
+
+---
+
+# Task 4 – Gaming Café Network Scenario
+
+## Scenario
+
+A gaming café is being set up to provide **IPL live streaming** and **multiplayer online gaming** for customers. The café has a high-speed fiber internet connection provided by the ISP and contains **8 gaming PCs**, one billing computer, and one Wi-Fi access point.
+
+### Network Setup
+
+1. The **ISP fiber line** is first connected to the **modem**.
+2. The modem is connected to the **router** through the **WAN port**.
+3. The router provides:
+   - Internet access
+   - DHCP (automatic IP address assignment)
+   - NAT (Network Address Translation)
+   - Firewall protection
+4. One LAN port of the router is connected to an **8-port Gigabit Network Switch**.
+5. All **8 gaming PCs** are connected to the switch using Cat6 Ethernet cables.
+6. The billing computer is also connected to the switch.
+7. A wireless access point can be connected to the router or switch to provide Wi-Fi for customers.
+
+### Network Diagram
+
+```
+Internet
+    │
+ ISP Fiber
+    │
+  Modem
+    │
+  Router
+    │
+8-Port Gigabit Switch
+├── Gaming PC 1
+├── Gaming PC 2
+├── Gaming PC 3
+├── Gaming PC 4
+├── Gaming PC 5
+├── Gaming PC 6
+├── Gaming PC 7
+├── Gaming PC 8
+└── Billing Computer
+```
+
+### Justification
+
+- The **router** must be connected first because it establishes the internet connection with the ISP, assigns IP addresses using DHCP, performs NAT, and provides firewall security.
+- The **switch** is connected after the router because it efficiently connects multiple wired devices within the Local Area Network (LAN).
+- Using a **Gigabit switch** ensures high-speed, low-latency communication between gaming PCs, providing a smooth multiplayer gaming experience and uninterrupted IPL streaming.
+
+---
+
+
+
 
