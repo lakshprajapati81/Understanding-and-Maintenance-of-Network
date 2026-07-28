@@ -315,6 +315,86 @@ Internet
 
 ---
 
+DAY 3 :- Configuring Basic Network Hardware
+
+---
+
+# Task 1 – Router Login Page
+
+## Router Login Screenshot
+
+![Router Login Page](/router-login-page.png)
+
+### Router Details
+
+| Item | Value |
+|------|------|
+| Default IP Address | YOUR ROUTER IP |
+| Login URL | http://YOUR_ROUTER_IP |
+| Router Brand | YOUR ROUTER BRAND |
+
+### Description
+
+The router login page was accessed using the router's default gateway address through a web browser. The login page requires an administrator username and password to access the router configuration panel.
+
+---
+
+# Task 2 – IP Configuration
+
+## Device Network Information
+
+| Parameter | Value |
+|-----------|-------|
+| IPv4 Address | YOUR IP ADDRESS |
+| Subnet Mask | YOUR SUBNET MASK |
+| Default Gateway | YOUR DEFAULT GATEWAY |
+
+### Description
+
+The IP configuration was obtained while the device was connected to the home Wi-Fi network using the operating system's network settings (or the `ipconfig` command in Windows).
+
+---
+
+# Task 3 – Static IP Configuration
+
+## Static IP Settings Used
+
+| Setting | Value |
+|---------|------|
+| IP Address | YOUR STATIC IP |
+| Subnet Mask | YOUR SUBNET MASK |
+| Default Gateway | YOUR DEFAULT GATEWAY |
+| Preferred DNS | YOUR DNS |
+
+### Internet Test Result
+
+✅ Internet Connection Working
+
+### Description
+
+The device's network settings were temporarily changed from DHCP (automatic) to a static IP address within the same subnet as the router. After testing internet connectivity, the network settings were restored to automatic (DHCP) to avoid future IP conflicts.
+
+---
+
+# Task 4 – DHCP Range
+
+## DHCP Configuration Screenshot
+
+![DHCP Settings](/dhcp-settings.png)
+
+### Current DHCP Range
+
+| Setting | Value |
+|---------|------|
+| DHCP Start Address | YOUR START ADDRESS |
+| DHCP End Address | YOUR END ADDRESS |
+
+### What Happens if Two Devices Have the Same IP Address?
+
+If two devices on the same network are assigned the same IP address, an **IP address conflict** occurs. As a result, one or both devices may lose internet connectivity, experience communication failures, or frequently disconnect from the network because the router cannot uniquely identify each device.
+
+---
+
 
 
 
