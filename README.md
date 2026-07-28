@@ -1,6 +1,8 @@
 # Computer Networking Hardware Assignment
 
 ---
+DAY 1 :- Introduction To Networking Hardware 
+---
 
 # Task 1 - Home Wi-Fi Network Diagram
 
@@ -184,7 +186,6 @@ Used by Internet Service Providers for high-speed internet and long-distance com
 
 
 DAY 2 :- Routers And Switches
-
 ---
 
 # Task 1 – Labelled Diagram of a Home Wi-Fi Router and Network Switch
@@ -316,7 +317,6 @@ Internet
 ---
 
 DAY 3 :- Configuring Basic Network Hardware
-
 ---
 
 # Task 1 – Router Login Page
@@ -393,7 +393,147 @@ The device's network settings were temporarily changed from DHCP (automatic) to 
 
 If two devices on the same network are assigned the same IP address, an **IP address conflict** occurs. As a result, one or both devices may lose internet connectivity, experience communication failures, or frequently disconnect from the network because the router cannot uniquely identify each device.
 
+
+
 ---
+
+DAY 4 :- Network Cable Types And Tools 
+---
+
+# Task 1 – Ethernet Cable vs Fiber Optic Cable
+
+## Differences Between Ethernet and Fiber Optic Cables
+
+| Feature | Ethernet Cable | Fiber Optic Cable |
+|----------|----------------|-------------------|
+| Transmission Medium | Copper wires transmit electrical signals | Glass or plastic fibers transmit light signals |
+| Speed & Distance | Up to 10 Gbps, maximum 100 meters | 100+ Gbps over several kilometers |
+| Cost | Low cost and easy to install | Higher cost and requires specialized equipment |
+
+---
+
+## Real-World Examples
+
+### Ethernet Cable
+**Example:** Home Wi-Fi router connected to desktop computers, printers, gaming consoles, and smart TVs.
+
+### Fiber Optic Cable
+**Example:** Internet Service Provider (ISP) backbone, data centers, and college campus backbone networks.
+
+---
+
+# Task 2 – T568B Straight-Through Ethernet Cable Wiring
+
+## T568B Wiring Diagram
+
+![T568B Wiring Diagram](/t568b-wiring-diagram.png)
+
+---
+
+## Pin Configuration (T568B Standard)
+
+| Pin | Wire Color |
+|-----|------------|
+| 1 | White / Orange |
+| 2 | Orange |
+| 3 | White / Green |
+| 4 | Blue |
+| 5 | White / Blue |
+| 6 | Green |
+| 7 | White / Brown |
+| 8 | Brown |
+
+---
+
+## Wiring Sequence
+
+```
+RJ45 Connector (Front View)
+
+ -------------------------
+|1|2|3|4|5|6|7|8|
+-------------------------
+
+1  White/Orange
+2  Orange
+3  White/Green
+4  Blue
+5  White/Blue
+6  Green
+7  White/Brown
+8  Brown
+```
+
+A straight-through Ethernet cable uses the **same T568B wiring standard on both ends**, making it suitable for connecting devices such as computers to switches or routers.
+
+---
+
+# Task 3 – Steps to Attach an RJ45 Connector to a CAT6 Cable
+
+## Step-by-Step Procedure
+
+### Step 1
+Cut the CAT6 cable cleanly using a cable cutter.
+
+### Step 2
+Remove approximately 2–3 cm of the outer insulation using a cable stripper without damaging the internal wires.
+
+### Step 3
+Untwist the four twisted wire pairs and straighten all eight wires carefully.
+
+### Step 4
+Arrange the wires according to the **T568B wiring standard**:
+
+1. White/Orange
+2. Orange
+3. White/Green
+4. Blue
+5. White/Blue
+6. Green
+7. White/Brown
+8. Brown
+
+### Step 5
+Trim the wires evenly so they are all the same length.
+
+### Step 6
+Insert the wires into the RJ45 connector, ensuring each wire reaches the front end of the connector and remains in the correct order.
+
+### Step 7
+Place the RJ45 connector into the RJ45 crimping tool.
+
+### Step 8
+Press the crimping tool firmly until the connector locks onto the cable and the metal contacts pierce the wire insulation.
+
+### Step 9
+Repeat the same procedure on the other end of the cable if creating a straight-through cable.
+
+### Step 10
+Use a cable tester to verify that all eight wires are correctly connected and functioning.
+
+---
+
+# Task 4 – Gaming Café Network Setup
+
+## Scenario
+
+A gaming café with **10 desktop PCs** is being set up for multiplayer LAN gaming and high-speed internet access.
+
+### Selected Cable
+
+**CAT6 Ethernet Cable**
+
+### Selected Tool
+
+**RJ45 Crimping Tool**
+
+### Justification
+
+A CAT6 Ethernet cable is the most suitable choice because the distance between the gaming PCs and the network switch is less than 100 meters. It provides speeds up to **10 Gbps**, offers low latency for online gaming, is cost-effective, and is easy to install. An RJ45 crimping tool is required to attach RJ45 connectors to the Ethernet cables, making installation simple and affordable compared to fiber optic equipment.
+
+---
+
+
 
 
 
