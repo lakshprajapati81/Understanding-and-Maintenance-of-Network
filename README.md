@@ -550,14 +550,12 @@ Both devices were connected to the same Wi-Fi network.
 ### Command Used
 
 ```cmd
-ping FRIEND_PHONE_IP
+ping IP
 ```
 
 ### Command Output
 
-```text
-Paste your ping output here
-```
+
 
 ### Observation
 
@@ -571,12 +569,6 @@ The ping command was used to verify communication between the laptop and the sma
 
 ```cmd
 tracert www.youtube.com
-```
-
-### Command Output
-
-```text
-Paste tracert output here
 ```
 
 ### Number of Hops
@@ -596,14 +588,9 @@ The smartphone was disconnected from the Wi-Fi network.
 ### Command
 
 ```cmd
-ping FRIEND_PHONE_IP
+ping IP
 ```
 
-### Command Output
-
-```text
-Paste error message here
-```
 
 ### Observation
 
