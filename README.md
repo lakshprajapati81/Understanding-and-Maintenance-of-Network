@@ -533,7 +533,142 @@ A CAT6 Ethernet cable is the most suitable choice because the distance between t
 
 ---
 
+DAY 5 :- Network Testing
+---
 
+# Task 1 – Ping Test Between Two Devices
+
+## Network Setup
+
+Both devices were connected to the same Wi-Fi network.
+
+| Device | IP Address |
+|---------|------------|
+| Laptop | YOUR_LAPTOP_IP |
+| Friend's Phone | FRIEND_PHONE_IP |
+
+### Command Used
+
+```cmd
+ping FRIEND_PHONE_IP
+```
+
+### Command Output
+
+```text
+Paste your ping output here
+```
+
+### Observation
+
+The ping command was used to verify communication between the laptop and the smartphone connected to the same Wi-Fi network. The devices successfully exchanged ICMP Echo Request and Echo Reply packets, confirming network connectivity.
+
+---
+
+# Task 2 – Traceroute to YouTube
+
+### Command Used
+
+```cmd
+tracert www.youtube.com
+```
+
+### Command Output
+
+```text
+Paste tracert output here
+```
+
+### Number of Hops
+
+**Total Hops:** 30
+
+### Observation
+
+Traceroute displayed every router (hop) between the local network and YouTube's server. Each hop represents an intermediate networking device that forwards packets toward the destination.
+
+---
+
+# Task 3 – Ping After Disconnecting the Phone
+
+The smartphone was disconnected from the Wi-Fi network.
+
+### Command
+
+```cmd
+ping FRIEND_PHONE_IP
+```
+
+### Command Output
+
+```text
+Paste error message here
+```
+
+### Observation
+
+After disconnecting the phone from the Wi-Fi network, the ping request failed because the destination device was no longer reachable.
+
+Typical error messages include:
+
+- Request timed out.
+- Destination host unreachable.
+- General failure.
+
+---
+
+# Task 4 – Devices Connected to Home Wi-Fi
+
+### Command Used
+
+```cmd
+arp -a
+```
+
+### Connected Devices
+
+| IP Address | MAC Address | Device Name | Owner |
+|------------|-------------|-------------|-------|
+| YOUR_ROUTER_IP | XX-XX-XX-XX-XX-XX | Wi-Fi Router | Home Router |
+| DEVICE_IP | XX-XX-XX-XX-XX-XX | Laptop | Me |
+| DEVICE_IP | XX-XX-XX-XX-XX-XX | Smartphone | Friend |
+| DEVICE_IP | XX-XX-XX-XX-XX-XX | Smart TV | Family |
+| DEVICE_IP | XX-XX-XX-XX-XX-XX | Printer | Home Printer |
+
+---
+
+# Task 5 – Network Testing Report
+
+## Objective
+
+The objective of this experiment was to understand basic network connectivity by performing Ping, Traceroute, and ARP commands on a home Wi-Fi network.
+
+## Procedure
+
+1. Connected a laptop and a smartphone to the same Wi-Fi network.
+2. Used the **ipconfig** command to determine the laptop's IP address.
+3. Identified the smartphone's IP address from the router or device settings.
+4. Executed the **ping** command from the laptop to the smartphone.
+5. Verified successful communication through ICMP replies.
+6. Executed the **tracert www.youtube.com** command to observe the network path.
+7. Counted the total number of network hops.
+8. Disconnected the smartphone from Wi-Fi.
+9. Executed the **ping** command again and observed the error message.
+10. Executed **arp -a** to display devices connected to the local network.
+11. Recorded the IP addresses and identified each connected device.
+
+## Results
+
+- The ping command successfully verified communication while both devices were connected.
+- Traceroute displayed multiple intermediate routers between the local network and YouTube.
+- After disconnecting the smartphone, the ping command failed because the destination host became unreachable.
+- The ARP table displayed the IP and MAC addresses of devices connected to the local network.
+
+## Conclusion
+
+The practical demonstrated how to test communication between devices using the Ping command, trace packet routes using Traceroute, and identify connected devices using the ARP table. These networking tools are essential for troubleshooting and diagnosing network connectivity issues.
+
+---
 
 
 
